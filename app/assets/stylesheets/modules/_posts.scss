@@ -1,29 +1,38 @@
-.header{
-  width: 100vw;
-  height: 120px;
-  background-color: #FF6600;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  &__title{
-    font-family: 'ヒラギノ角ゴ StdN','Hiragino Kaku Gothic StdN',sans-serif;
-    font-size: 60px;
-    font-weight: 900;
-    color: white;
-  }
-  &__item{
+.box{
+  box-sizing: border-box;
+  width: 100%;
+  .header{
+    height: 120px;
+    background-color: #ff6600;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    &__title{
+      font-family: 'ヒラギノ角ゴ StdN','Hiragino Kaku Gothic StdN',sans-serif;
+      font-size: 60px;
+      font-weight: 900;
+      color: white;
+    }
+  }
+  .useritem{
+    display: flex;
+    justify-content: flex-end;
     position: relative;
     .login{
-      font-size: 10px;
+      font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
+      font-size: 16px;
       color: white;
       position: absolute;
-      top: 50px;
-      left: 80px;
+      right: 100px;
+      bottom: 8px;
     }
     .mypage{
-      font-size: 10px;
+      font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
+      font-size: 16px;
       color: white;
+      position: absolute;
+      right: 20px;
+      bottom: 8px;
     }
   }
 }
