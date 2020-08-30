@@ -1,0 +1,29 @@
+.header{
+  width: 100vw;
+  height: 120px;
+  background-color: #FF6600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &__title{
+    font-family: 'ヒラギノ角ゴ StdN','Hiragino Kaku Gothic StdN',sans-serif;
+    font-size: 60px;
+    font-weight: 900;
+    color: white;
+  }
+  &__item{
+    display: flex;
+    position: relative;
+    .login{
+      font-size: 10px;
+      color: white;
+      position: absolute;
+      top: 50px;
+      left: 80px;
+    }
+    .mypage{
+      font-size: 10px;
+      color: white;
+    }
+  }
+}
