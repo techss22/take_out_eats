@@ -8,36 +8,28 @@
   .header{
     height: 120px;
     background-color: #FF6928;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     &__title{
       letter-spacing: .1em;
       font-family: 'Hannotate SC',sans-serif;
       font-size: 75px;
       font-weight: 900;
       color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
   }
   .useritem{
     display: flex;
     justify-content: flex-end;
-    position: relative;
-    .login{
+    height: 30px;
+    padding-right: 50px;
+    .login {
+      padding-left: 11px;
       font-family: 'Hannotate SC',sans-serif;
-      font-size: 16px;
-      color: white;
-      position: absolute;
-      right: 100px;
-      bottom: 8px;
-    }
-    .mypage{
-      font-family: 'Hannotate SC',sans-serif;
-      font-size: 16px;
-      color: white;
-      position: absolute;
-      right: 20px;
-      bottom: 8px;
+      text-decoration: none;
+      font-size: 18px;
+      color: black;
     }
   }
   .mainphoto{
@@ -72,10 +64,9 @@
   }
   .maininfo{
     height: 50px;
-    background-color: #FF6928;
     margin-top: 50px;
     font-size: 43px;
-    color: white;
+    color: black;
     letter-spacing: .2em;
     font-family: 'Hannotate SC',sans-serif;
     display: flex;
