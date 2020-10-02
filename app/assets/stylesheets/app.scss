@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+.header{
+  box-sizing: border-box;
+  width: 100%;
+  &__box{
+    height: 120px;
+    background-color: #FF6928;
+    &__title{
+      letter-spacing: .1em;
+      font-family: 'Hannotate SC',sans-serif;
+      font-size: 75px;
+      font-weight: 900;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    &__icon{
+      float: right; 
+    }
+  }
+}

@@ -1,29 +1,10 @@
-* {
-  box-sizing: border-box;
-}
-
-.box{
-  box-sizing: border-box;
-  width: 100%;
-  .header{
-    height: 120px;
-    background-color: #FF6928;
-    &__title{
-      letter-spacing: .1em;
-      font-family: 'Hannotate SC',sans-serif;
-      font-size: 75px;
-      font-weight: 900;
-      color: white;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-  }
-  .useritem{
+.useritem{
     display: flex;
     justify-content: flex-end;
     height: 30px;
     padding-right: 50px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
     .login {
       padding-left: 11px;
       font-family: 'Hannotate SC',sans-serif;
@@ -43,9 +24,8 @@
       font-size: 80px;
       font-weight: 600;
       font-family: 'Hannotate SC',sans-serif;
-      background: -webkit-linear-gradient(#ff5f17 70%, #ffffff 90%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
+      color: white;
+      text-shadow: 0 0 5px rgba(0,0,0,0.4);
       position: absolute;
       top: 200px;
       left: 600px;
@@ -54,9 +34,8 @@
     font-size: 80px;
     font-weight: 600;
     font-family: 'Hannotate SC',sans-serif;
-    background: -webkit-linear-gradient(#ff5f17 70%, #ffffff 90%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: white;
+    text-shadow: 0 0 5px rgba(0,0,0,0.4);
     position: absolute;
     top: 300px;
     left: 690px;
@@ -73,4 +52,3 @@
     align-items: center;
     justify-content: center;
   }
-}

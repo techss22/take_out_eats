@@ -1,0 +1,47 @@
+.account{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color: #EEEEEE;
+ height: 100vh;
+ width: 100vw;
+  &__box{
+    height: 630px;
+    width: 620px;
+    background-color: white;
+    border-radius: 10px 20px 30px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .userbox{
+      width: 500px;
+      height: 500px;
+       h2{
+        font-size: 25px;
+        text-align: center;
+        font-family: 'Hannotate SC',sans-serif;
+       }
+      .accountfield{
+        font-family: 'Hannotate SC',sans-serif;
+        text-align: center;
+        font-size: 20px;
+        margin-top: 20px;
+      }
+      .actions{
+        font-family: 'Hannotate SC',sans-serif;
+        text-align: center;
+        margin-top: 20px;
+      }
+      .signbtn{
+        margin: 17px 0px 17px;
+        background-color: #ff6928;
+        border: none;
+        font-size: 19px;
+        color: #fff;
+        height: 50px;
+        width: 325px;
+        border-radius: 4px;
+      }
+    }  
+  }
+}

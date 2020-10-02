@@ -1,15 +1,12 @@
-.box
-  .header
-    .header__title Take-Out-Eats
-  .useritem
-    - if user_signed_in?
-      = link_to "マイページ", users_path, class: "login"
-      = link_to "ログアウト", destroy_user_session_path, method: :delete, class:"login"
-      = link_to "投稿する", new_tweet_path, class: "login"
-    - else
-      = link_to "ログイン", new_user_session_path, class: "login"
-      = link_to "新規登録", new_user_registration_path, class: "login"
-  .mainphoto
-    .mainphoto__catchphrase ご自宅でも変わらぬ
-    .mainphoto__catchphrase1 味を堪能できます!
-  .maininfo 店舗一覧
+.useritem
+  - if user_signed_in?
+    = link_to "マイページ", users_path, class: "login"
+    = link_to "ログアウト", destroy_user_session_path, method: :delete, class:"login"
+    = link_to "投稿する", new_tweet_path, class: "login"
+  - else
+    = link_to "ログイン", new_user_session_path, class: "login"
+    = link_to "新規登録", new_user_registration_path, class: "login"
+.mainphoto
+  .mainphoto__catchphrase テスト
+  .mainphoto__catchphrase1 テスト
+.maininfo 店舗一覧
