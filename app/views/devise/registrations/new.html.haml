@@ -20,5 +20,5 @@
           %br/
           = f.password_field :password_confirmation, autocomplete: "new-password", placeholder:"再入力", size: "30x30"
         .actions
-          = f.submit "新規登録"
+          = f.submit "新規登録", class: "signbtn"
       = render "devise/shared/links"
