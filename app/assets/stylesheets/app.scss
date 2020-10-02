@@ -8,6 +8,7 @@
   &__box{
     height: 120px;
     background-color: #FF6928;
+    position: relative;
     &__title{
       letter-spacing: .1em;
       font-family: 'Hannotate SC',sans-serif;
@@ -19,7 +20,9 @@
       justify-content: center;
     }
     &__icon{
-      float: right; 
+      position: absolute;
+      top: 21px;
+      right: 300px;
     }
   }
 }
