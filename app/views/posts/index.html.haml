@@ -1,6 +1,6 @@
-.box
-  .header
-    .header__title Take-Out-Eats
+.header
+  .header__box
+    .header__box__title Take-Out-Eats
   .useritem
     - if user_signed_in?
       = link_to "マイページ", users_path, class: "login"
@@ -10,6 +10,6 @@
       = link_to "ログイン", new_user_session_path, class: "login"
       = link_to "新規登録", new_user_registration_path, class: "login"
   .mainphoto
-    .mainphoto__catchphrase ご自宅でも変わらぬ
-    .mainphoto__catchphrase1 味を堪能できます!
+    .mainphoto__catchphrase テスト
+    .mainphoto__catchphrase1 テスト
   .maininfo 店舗一覧

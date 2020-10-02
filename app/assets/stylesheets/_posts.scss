@@ -2,10 +2,10 @@
   box-sizing: border-box;
 }
 
-.box{
+.header{
   box-sizing: border-box;
   width: 100%;
-  .header{
+  &__box{
     height: 120px;
     background-color: #FF6928;
     &__title{
